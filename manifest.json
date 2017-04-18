@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome Learning Track",
+  "description": "Create Custom Learning Tracks, Drag and Drop Webpages and Keep Your Self-Taught Learning Organized!",
+  "version": "0.1",
+
+  "browser_action": {
+    // 19x19 icon
+    "default_icon": "icon.png",
+    // Giving me free reign over what happens when I click the icon next to the omnibox
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    // Active tab URL
+    "activeTab",
+
+    // Used to access google image search
+    "https://ajax.googleapis.com/"
+  ]
+}
