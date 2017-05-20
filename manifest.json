@@ -9,8 +9,11 @@
     // 19x19 icon
     "default_icon": "icon.png",
     // Giving me free reign over what happens when I click the icon next to the omnibox
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    // Added later
+    "default_title": "Click here!"
   },
+  
   "permissions": [
     // Active tab URL
     "activeTab",
